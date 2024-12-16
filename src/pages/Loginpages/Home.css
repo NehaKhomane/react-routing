@@ -1,0 +1,76 @@
+.head{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+    background: #001F3F;
+    color: white;
+  
+  }.head .links{
+    display: flex;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .head .links a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    transition: all ease-in 0.4s;
+  }
+  
+  .head .links a:hover{
+    transition: all ease-in-out 0.4s;
+    transform:  translate(5px);
+    color: lightblue;
+    
+  }
+  .head button{
+    padding: 6px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 30px;
+  margin-top: -10px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+   
+  strong{
+    margin-left: 25px;
+    font-size: 27px;
+  }
+  .head i{
+    font-size: 30px;
+    margin-right: 10px;
+  }
+.Boxes{
+    width: 100%;
+    height: 550px;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    background:red;
+  }
+  .box{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    margin: 25px auto;
+    margin-left: 550px;
+    
+  }
+   .box h1 i{
+    width: 100%;
+    height: 500px;
+    align-items: start;
+    
+  font-size: xx-large;
+  font-size: 70px;
+  font-weight: 999;
+  justify-content: start;
+  
+    color: white;
+  }

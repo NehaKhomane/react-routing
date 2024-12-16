@@ -1,0 +1,76 @@
+.events-container{
+    width: 100%;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex-direction: column;
+    background: aliceblue;
+}
+
+
+.events-container .cards{
+    width: 100%;
+    padding: 6px 20px;
+    background: rgba(25, 106, 138, 0.655);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all ease-in 0.1s;
+}
+.events-container .cards:hover{
+    background: skyblue;
+    transform: scale(1.01)
+}
+.events-container .cards img{
+    width: 160px;
+    height: 100px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.events-container .cards .dates{
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.events-container .cards p{
+    font-size: 18px;
+}
+.events-container .cards p span{
+    color: rgb(12, 11, 77);
+    font-weight: 600;
+}
+.events-container .cards .location{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.events-container .cards button{
+    width: 150px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in 0.4s;
+}
+.events-container .cards .book{
+    border: 2px solid rgb(0, 179, 250);
+    background: rgb(0, 182, 254);
+}
+.events-container .cards .sold-out{
+    border: 2px solid crimson;
+    background: crimson;
+}
